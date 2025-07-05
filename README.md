@@ -7,12 +7,12 @@ code/
 ├── preprocess.py         # 数据预处理
 ├── utils.py              # 工具函数
 
-├── Data/
-│   ├── original_data.zip/    # 原始数据
-│   ├── daily_test/       # 处理好的 test 数据
-│   └── daily_train/      # 处理好的 train 数据
+Data/
+├── original_data.zip/    # 原始数据
+├── daily_test/       # 处理好的 test 数据
+└── daily_train/      # 处理好的 train 数据
 
-└── Result/               # 运行结果
+Result/               # 运行结果
 ```
 
 ### 运行脚本
