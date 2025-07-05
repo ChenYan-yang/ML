@@ -102,7 +102,7 @@ class MovingAverage(nn.Module):
 class Trendformer(nn.Module):
     def __init__(self, input_size, output_size, d_model=256, num_heads=8, num_layers=2):
         super().__init__()
-        self.trend_extractor = MovingAverage(kernel_size=85)
+        self.trend_extractor = MovingAverage(kernel_size=25)
 
         self.input_proj = nn.Linear(input_size, d_model)
         self.trend_proj = nn.Linear(input_size, d_model)
