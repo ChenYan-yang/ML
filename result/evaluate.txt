@@ -1,0 +1,24 @@
+----------LSTM for 90 days----------
+Avg MSE: 225145.47, Std: 1627.74
+Avg MAE: 373.90, Std: 1.43
+
+----------Transformer for 90 days----------
+Avg MSE: 191076.28, Std: 6118.63
+Avg MAE: 343.70, Std: 6.14
+
+----------Trendformer for 90 days----------
+Avg MSE: 179460.14, Std: 5395.27
+Avg MAE: 334.13, Std: 6.33
+
+----------LSTM for 365 days----------
+Avg MSE: 215964.59, Std: 1642.85
+Avg MAE: 364.10, Std: 1.53
+
+----------Transformer for 365 days----------
+Avg MSE: 252054.08, Std: 6288.10
+Avg MAE: 398.00, Std: 4.86
+
+----------Trendformer for 365 days----------
+Avg MSE: 238489.28, Std: 3609.97
+Avg MAE: 385.90, Std: 3.22
+
